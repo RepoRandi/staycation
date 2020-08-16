@@ -4,6 +4,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 @import "functions";
 @import "variables";
@@ -45,7 +46,7 @@
 
 .brand-text-icon {
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: $primary;
 
@@ -59,6 +60,7 @@ header {
   border-bottom: 1px solid $gray-200;
   width: 100%;
   position: relative;
+  margin-bottom: 50px;
 
   .navbar {
     height: 80px;

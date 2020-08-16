@@ -10,13 +10,14 @@
   font-weight: $btn-font-weight;
   color: $body-color;
   text-align: center;
-  text-decoration: if($link-decoration == none, null, none);
+  text-decoration: if($link-decoration==none, null, none);
   white-space: $btn-white-space;
   vertical-align: middle;
   user-select: none;
   background-color: transparent;
   border: $btn-border-width solid transparent;
-  @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, $btn-border-radius);
+  min-height: 50px;
+  @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, 4px);
   @include transition($btn-transition);
 
   @include hover() {
@@ -49,6 +50,10 @@
       }
     }
   }
+
+  &.btn-shadow {
+    box-shadow: 0px 8px 15px rgba($primary, 0.3);
+  }
 }
 
 // Future-proof disabling of clicks on `<a>` elements
@@ -62,13 +67,15 @@ fieldset:disabled a.btn {
 // Alternate buttons
 //
 
-@each $color, $value in $theme-colors {
+@each $color,
+$value in $theme-colors {
   .btn-#{$color} {
     @include button-variant($value, $value);
   }
 }
 
-@each $color, $value in $theme-colors {
+@each $color,
+$value in $theme-colors {
   .btn-outline-#{$color} {
     @include button-outline-variant($value);
   }
@@ -127,7 +134,7 @@ fieldset:disabled a.btn {
   width: 100%;
 
   // Vertically space out multiple block buttons
-  + .btn-block {
+  +.btn-block {
     margin-top: $btn-block-spacing-y;
   }
 }
