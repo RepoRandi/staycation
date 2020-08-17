@@ -11,15 +11,15 @@
   word-wrap: break-word;
   background-color: $card-bg;
   background-clip: border-box;
-  border: $card-border-width solid $card-border-color;
+  // border: $card-border-width solid $card-border-color;
   @include border-radius($card-border-radius);
 
-  > hr {
+  >hr {
     margin-right: 0;
     margin-left: 0;
   }
 
-  > .list-group {
+  >.list-group {
     border-top: inherit;
     border-bottom: inherit;
 
@@ -28,7 +28,7 @@
       @include border-top-radius($card-inner-border-radius);
     }
 
-    &:last-child  {
+    &:last-child {
       border-bottom-width: 0;
       @include border-bottom-radius($card-inner-border-radius);
     }
@@ -36,8 +36,8 @@
 
   // Due to specificity of the above selector (`.card > .list-group`), we must
   // use a child selector here to prevent double borders.
-  > .card-header + .list-group,
-  > .list-group + .card-footer {
+  >.card-header+.list-group,
+  >.list-group+.card-footer {
     border-top: 0;
   }
 }
@@ -71,7 +71,7 @@
     text-decoration: none;
   }
 
-  + .card-link {
+  +.card-link {
     margin-left: $card-spacer-x;
   }
 }
@@ -178,23 +178,25 @@
 //
 
 .card-group {
+
   // The child selector allows nested `.card` within `.card-group`
   // to display properly.
-  > .card {
+  >.card {
     margin-bottom: $card-group-margin;
   }
 
   @include media-breakpoint-up(sm) {
     display: flex;
     flex-flow: row wrap;
+
     // The child selector allows nested `.card` within `.card-group`
     // to display properly.
-    > .card {
+    >.card {
       // Flexbugs #4: https://github.com/philipwalton/flexbugs#flexbug-4
       flex: 1 0 0%;
       margin-bottom: 0;
 
-      + .card {
+      +.card {
         margin-left: 0;
         border-left: 0;
       }
@@ -209,6 +211,7 @@
             // stylelint-disable-next-line property-blacklist
             border-top-right-radius: 0;
           }
+
           .card-img-bottom,
           .card-footer {
             // stylelint-disable-next-line property-blacklist
@@ -224,6 +227,7 @@
             // stylelint-disable-next-line property-blacklist
             border-top-left-radius: 0;
           }
+
           .card-img-bottom,
           .card-footer {
             // stylelint-disable-next-line property-blacklist
@@ -266,7 +270,7 @@
 .accordion {
   overflow-anchor: none;
 
-  > .card {
+  >.card {
     overflow: hidden;
 
     &:not(:last-of-type) {
@@ -278,7 +282,7 @@
       @include border-top-radius(0);
     }
 
-    > .card-header {
+    >.card-header {
       @include border-radius(0);
       margin-bottom: -$card-border-width;
     }
