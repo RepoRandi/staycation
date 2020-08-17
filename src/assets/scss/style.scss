@@ -4,7 +4,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @import "colorVariables";
 @import "functions";
 @import "variables";
@@ -47,7 +47,7 @@
 
 .brand-text-icon {
   font-size: 26px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: $primary;
 
@@ -215,4 +215,38 @@ section {
 .testimonial-hero img {
   width: 365px;
   height: 500px;
+}
+
+footer {
+  border-top: 1px solid $gray-200;
+  padding-top: 50px;
+
+  .brand-tagline {
+    margin-top: 8px;
+    color: $gray-500;
+    font-weight: 300;
+  }
+
+  .list-group-item {
+    padding: 0.3125rem 0;
+    border: 0;
+
+    a,
+    span {
+      color: $gray-500;
+      font-weight: 300;
+    }
+
+    a {
+      @include hover-focus {
+        color: $gray-800;
+      }
+    }
+  }
+
+  .copyrights {
+    margin: 50px 0;
+    font-weight: 300;
+    color: $gray-500;
+  }
 }

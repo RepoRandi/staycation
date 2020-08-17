@@ -28,7 +28,7 @@ export default function MostPicked(props) {
                 <div className="meta-wrapper">
                   <Button
                     type="link"
-                    className="streched-link d-block text-white"
+                    className="stretched-link d-block text-white"
                     href={`/properties/${item._id}`}
                   >
                     <h5>{item.name}</h5>
