@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import "colorVariables";
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -209,4 +209,10 @@ section {
       }
     }
   }
+}
+
+.testimonial-hero,
+.testimonial-hero img {
+  width: 365px;
+  height: 500px;
 }

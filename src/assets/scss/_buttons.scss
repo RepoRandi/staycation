@@ -5,7 +5,8 @@
 //
 
 .btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   font-family: $btn-font-family;
   font-weight: $btn-font-weight;
   color: $body-color;
