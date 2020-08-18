@@ -1,6 +1,6 @@
 {
   "_id": "asd1293uasdads1",
-  "name": "Village Angga",
+  "name": "Village Putra Randi",
   "type": "Hotel",
   "imageUrls": [
     {
@@ -17,7 +17,7 @@
     }
   ],
   "country": "Indonesia",
-  "city": "Bogor",
+  "city": "Malang",
   "price": "52",
   "unit": "night",
   "isPopular": true,
@@ -76,26 +76,26 @@
   "activities": [
     {
       "_id": "asd1293uasdads1",
-      "name": "Kebun Park",
+      "name": "Danau Park",
       "type": "Nature",
       "imageUrl": "/images/categoryItem1.png"
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Water land",
+      "name": "Water Club",
       "type": "Pool",
       "imageUrl": "/images/categoryItem2.png"
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Kebun Park",
+      "name": "Labour and wait",
       "type": "Nature",
       "imageUrl": "/images/categoryItem3.png"
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Water land",
-      "type": "Pool",
+      "name": "Snorkeling",
+      "type": "Beach",
       "imageUrl": "/images/categoryItem4.png"
     }
   ],
@@ -145,7 +145,7 @@
     "name": "Happy Family",
     "rate": 4.25,
     "content": "What a great trip with my family and I should try again and again next time soon...",
-    "familyName": "Angga",
-    "familyOccupation": "UI Designer"
+    "familyName": "Randi",
+    "familyOccupation": "Software Engineer"
   }
 }
