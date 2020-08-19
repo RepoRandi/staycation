@@ -4,7 +4,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 @import "colorVariables";
 @import "functions";
 @import "variables";
@@ -85,7 +85,6 @@ header {
               text-decoration: underline;
             }
           }
-
         }
       }
     }
@@ -115,7 +114,7 @@ section {
     z-index: 3;
     font-size: 0.875rem;
     background-color: $pink;
-    padding: .25rem 1.25rem;
+    padding: 0.25rem 1.25rem;
     position: absolute;
     top: 0;
     right: 0;
@@ -144,7 +143,7 @@ section {
     }
 
     span {
-      font-size: .875rem;
+      font-size: 0.875rem;
     }
   }
 
@@ -164,7 +163,7 @@ section {
       transform: scale(1.1);
       transition: 5s transform ease-in-out;
       z-index: 2;
-      @include gradient-y(rgba($black, 0), rgba($black, .51), 0%, 100%)
+      @include gradient-y(rgba($black, 0), rgba($black, 0.51), 0%, 100%);
     }
 
     .img-wrapper {
@@ -176,8 +175,7 @@ section {
       right: 0;
       bottom: 0;
       transform: scale(1.1);
-      transition: .25s transform ease-in-out;
-
+      transition: 0.25s transform ease-in-out;
     }
 
     .meta-wrapper {
@@ -248,5 +246,12 @@ footer {
     margin: 50px 0;
     font-weight: 300;
     color: $gray-500;
+  }
+}
+
+main {
+  p {
+    color: $gray-500;
+    font-weight: 300;
   }
 }
