@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 
 import propTypes from "prop-types";
 
@@ -17,15 +17,6 @@ export default function File(props) {
   } = props;
 
   const refInputFile = useRef(null);
-
-  const onChange = (event) => {
-    const target = {
-      target: {
-        name: name,
-        value: event.target.value,
-      },
-    };
-  };
 
   return (
     <div className={["input-text mb-3", outerClassName].join(" ")}>
