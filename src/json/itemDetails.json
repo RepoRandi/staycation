@@ -102,38 +102,38 @@
   "categories": [
     {
       "_id": "asd1293uasdads1",
-      "name": "House with beauty backyard",
+      "name": "Treasure to Choose",
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
+          "name": "Greenland",
           "imageUrl": "/images/treasure-1.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Indonesia",
+          "city": "Malang",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
+          "name": "Pool Party",
           "imageUrl": "/images/treasure-2.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Indonesia",
+          "city": "Malang",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
+          "name": "Labour and wait",
           "imageUrl": "/images/treasure-3.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Indonesia",
+          "city": "Malang",
           "isPopular": true
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
+          "name": "Snorkeling",
           "imageUrl": "/images/treasure-4.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Indonesia",
+          "city": "Malang",
           "isPopular": false
         }
       ]
