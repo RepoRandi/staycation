@@ -1,68 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img width="400"  src="https://user-images.githubusercontent.com/63716330/90742698-b8008f80-e2f9-11ea-973f-a6e153b6614a.png">
+</p>
 
-## Available Scripts
+# 
+> Create UI For Library Applications
 
-In the project directory, you can run:
+## :memo: Table Of Content
+* [Built-With](https://github.com/RepoRandi/LibraryApps#Built-With)
+* [Features](https://github.com/RepoRandi/LibraryApps#Features)
+* [Prerequisites](https://github.com/RepoRandi/LibraryApps#Prerequisites)
+* [Development](https://github.com/RepoRandi/LibraryApps#Development)
+* [Live](https://github.com/RepoRandi/LibraryApps#Live)
+* [HTTP-Verbs](https://github.com/RepoRandi/LibraryApps#HTTP-Verbs)
+* [Endpoint](https://github.com/RepoRandi/LibraryApps#Endpoint)
+* [Author](https://github.com/RepoRandi/LibraryApps#Author)
+* [License](https://github.com/RepoRandi/LibraryApps#License)
 
-### `yarn start`
+## Built-With
+- [React.js](http://reactjs.org/) - FrontEnd Library JavaScript
+- [Bootstrap](https://getbootstrap.com/) - Css Framework
+- [Redux](https://redux.js.org/) - JavaScript library for managing application state
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
+- [x] Login/Register AUTH With JWT
+- [x] Password hashing With Bcript
+- [x] CRUD
+- [x] Search
+- [x] Sort
+- [x] Pagination
+- [x] Cors
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Prerequisites
+- React.js installed on the local machine
+- Node.js installed on the local machine
 
-### `yarn test`
+## Development
+> Clone Repo And Install Package
+1. Clone this repository:
+    `git clone https://https://github.com/RepoRandi/staycation`
+2. Install depedencies:
+    - `cd LibraryApps` 
+    - `npm install`
+3. Start the server:
+    * Open Terminal `npm start`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Live
+- [https://localhost:3006](https://localhost:3006)
 
-### `yarn build`
+### HTTP-Verbs
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Verbs    | Description                                           |
+| -------- | ----------------------------------------------------- |
+| `GET`    | Request data from the server                          |
+| `POST`   | Sending data to the server                            |
+| `PUT`    | Change all data that is already on the server         |
+| `PATCH`  | Change Most of the data already exists on the server  |
+| `DELETE` | Delete data that is already on the server             |
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
+- [Randi Maulana Akbar](https://www.linkedin.com/in/randi-maulana-akbar/)
 
-### `yarn eject`
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/RepoRandi/staycation/blob/master/LICENSE) file for details
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+##
+Copyright © 2020 By Randi Maulana Akbar
