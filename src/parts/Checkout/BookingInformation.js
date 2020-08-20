@@ -14,15 +14,15 @@ export default function BookingInformation(props) {
               <div className="card">
                 <figure className="img-wrapper" style={{ height: 270 }}>
                   <img
+                    className="img-cover"
                     src={ItemDetails.imageUrls[0].url}
                     alt={ItemDetails.name}
-                    className="img-cover"
                   />
                 </figure>
                 <div className="row align-items-center">
                   <div className="col">
                     <div className="meta-wrapper">
-                      <h5>{ItemDetails}</h5>
+                      <h5>{ItemDetails.name}</h5>
                       <span className="text-gray-500">
                         {ItemDetails.city}, {ItemDetails.country}
                       </span>
@@ -31,7 +31,7 @@ export default function BookingInformation(props) {
                   <div className="col-auto">
                     <span>
                       ${+checkout.duration * ItemDetails.price} USD
-                      <span className="text-gray-500">per</span>
+                      <span className="text-gray-500"> per </span>
                       {checkout.duration} {ItemDetails.unit}
                       {+checkout.duration > 1 ? "S" : ""}
                     </span>

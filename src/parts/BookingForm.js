@@ -106,14 +106,26 @@ export default class BookingForm extends Component {
           </span>
         </h6>
 
-        <Button
+        {/* <Button
           className="btn"
           hasShadow
           isPrimary
           isBlock
           onClick={startBooking}
         >
-          Continue to book
+          Continue to Book
+        </Button> */}
+        <Button
+          className="btn"
+          type="link"
+          isBlock
+          isPrimary
+          hasShadow
+          onClick={startBooking}
+          href="/checkout"
+          style={{ paddingTop: 10 }}
+        >
+          Continue to Book
         </Button>
       </div>
     );
