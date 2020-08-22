@@ -74,6 +74,13 @@
 
 ![screenshot-landingpage](https://user-images.githubusercontent.com/63716330/90948555-3b40f300-e46a-11ea-95d2-75aabd81faa7.png)
 
+- Details Page
+
+![screenshot-details-page](https://user-images.githubusercontent.com/63716330/90948679-43e5f900-e46b-11ea-9434-f2bce6bba37b.png)
+
+- Checkout Page
+-- Booking Information
+
 
 ## Author
 
