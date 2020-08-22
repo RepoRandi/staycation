@@ -80,9 +80,13 @@
 
 - Checkout Page :
 
-* Booking Information
+ 1. Booking Information
 ![screenshot-booking-information](https://user-images.githubusercontent.com/63716330/90948722-dbe3e280-e46b-11ea-880a-a0fa6de3c0f4.png)
 
+2. Payment
+![screenshot-payment](https://user-images.githubusercontent.com/63716330/90948742-1ea5ba80-e46c-11ea-860b-96ca6e676d56.png)
+
+3. Completed
 
 
 ## Author
