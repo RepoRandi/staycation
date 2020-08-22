@@ -38,8 +38,9 @@
 
 ## Prerequisites
 
-- React.js installed on the local machine
 - Node.js installed on the local machine
+- Npm or Yarn installed on the local machine
+- React.js installed on the local machine
 
 ## Development
 
