@@ -10,15 +10,15 @@
 
 ## :memo: Table Of Content
 
-- [Built-With](https://github.com/RepoRandi/LibraryApps#Built-With)
-- [Features](https://github.com/RepoRandi/LibraryApps#Features)
-- [Prerequisites](https://github.com/RepoRandi/LibraryApps#Prerequisites)
-- [Development](https://github.com/RepoRandi/LibraryApps#Development)
-- [Live](https://github.com/RepoRandi/LibraryApps#Live)
-- [HTTP-Verbs](https://github.com/RepoRandi/LibraryApps#HTTP-Verbs)
-- [Endpoint](https://github.com/RepoRandi/LibraryApps#Endpoint)
-- [Author](https://github.com/RepoRandi/LibraryApps#Author)
-- [License](https://github.com/RepoRandi/LibraryApps#License)
+- [Built-With](https://github.com/RepoRandi/staycation#Built-With)
+- [Features](https://github.com/RepoRandi/staycation#Features)
+- [Prerequisites](https://github.com/RepoRandi/staycation#Prerequisites)
+- [Development](https://github.com/RepoRandi/staycation#Development)
+- [Live](https://github.com/RepoRandi/staycation#Live)
+- [HTTP-Verbs](https://github.com/RepoRandi/staycation#HTTP-Verbs)
+- [Screenshot](https://github.com/RepoRandi/staycation#Screenshot)
+- [Author](https://github.com/RepoRandi/staycation#Author)
+- [License](https://github.com/RepoRandi/staycation#License)
 
 ## Built-With
 
@@ -49,7 +49,7 @@
 1. Clone this repository:
    `git clone https://https://github.com/RepoRandi/staycation`
 2. Install depedencies:
-   - `cd LibraryApps`
+   - `cd staycation`
    - `npm install`
 3. Start the server:
    - Open Terminal `npm start`
@@ -67,6 +67,10 @@
 | `PUT`    | Change all data that is already on the server        |
 | `PATCH`  | Change Most of the data already exists on the server |
 | `DELETE` | Delete data that is already on the server            |
+
+## Screenshot
+
+### Landing Page
 
 ## Author
 
