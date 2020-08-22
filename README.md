@@ -55,7 +55,7 @@
 
 ## Live
 
-- [https://localhost:3006](https://localhost:3000)
+- [https://localhost:3000](https://localhost:3000)
 
 ## HTTP-Verbs
 
