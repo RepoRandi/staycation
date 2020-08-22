@@ -78,9 +78,9 @@
 
 ![screenshot-details-page](https://user-images.githubusercontent.com/63716330/90948679-43e5f900-e46b-11ea-9434-f2bce6bba37b.png)
 
-- Checkout Page
+- Checkout Page :
 
-- Booking Information
+* Booking Information
 ![screenshot-booking-information](https://user-images.githubusercontent.com/63716330/90948722-dbe3e280-e46b-11ea-880a-a0fa6de3c0f4.png)
 
 
