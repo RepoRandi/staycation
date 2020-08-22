@@ -70,9 +70,9 @@
 
 ## Screenshot
 
-### Landing Page
+- Landing Page
 
-- ![screenshot-landingpage](https://user-images.githubusercontent.com/63716330/90948555-3b40f300-e46a-11ea-95d2-75aabd81faa7.png)
+![screenshot-landingpage](https://user-images.githubusercontent.com/63716330/90948555-3b40f300-e46a-11ea-95d2-75aabd81faa7.png)
 
 
 ## Author
