@@ -127,18 +127,6 @@ export default class BookingForm extends Component {
         >
           Continue to Book
         </Button>
-        {/* <Button
-          className="btn"
-          type="link"
-          isBlock
-          isPrimary
-          hasShadow
-          onClick={startBooking}
-          href="/checkout"
-          style={{ paddingTop: 10 }}
-        >
-          Continue to Book
-        </Button> */}
       </div>
     );
   }
