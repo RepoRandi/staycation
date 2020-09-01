@@ -45,7 +45,7 @@ class Checkout extends Component {
 
   render() {
     const { data } = this.state;
-    const { checkout } = this.props;
+    const { checkout, page } = this.props;
 
     if (!checkout)
       return (
@@ -57,7 +57,12 @@ class Checkout extends Component {
             <div className="col-3">
               Pilih kamar dulu
               <div>
-                <Button className="btn mt-5" type="link" href="/" isLight>
+                <Button
+                  className="btn mt-5"
+                  type="button"
+                  onClick={() => this.props.history.goBack()}
+                  isLight
+                >
                   Back
                 </Button>
               </div>
@@ -74,7 +79,7 @@ class Checkout extends Component {
           <BookingInformation
             data={data}
             checkout={checkout}
-            ItemDetails={ItemDetails}
+            ItemDetails={page[checkout._id]}
             onChange={this.onChange}
           />
         ),
@@ -87,7 +92,7 @@ class Checkout extends Component {
           <Payment
             data={data}
             checkout={checkout}
-            ItemDetails={ItemDetails}
+            ItemDetails={page[checkout._id]}
             onChange={this.onChange}
           />
         ),
@@ -203,6 +208,7 @@ class Checkout extends Component {
 
 const mapStateToProps = (state) => ({
   checkout: state.checkout,
+  page: state.page,
 });
 
 export default connect(mapStateToProps)(Checkout);
