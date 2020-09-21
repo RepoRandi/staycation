@@ -4,6 +4,7 @@ import Fade from "react-reveal/Fade";
 import Button from "elements/Button";
 
 export default function Categories({ data }) {
+  console.log(data);
   return data.map((category, index1) => {
     if (category.itemId.length === 0) return null;
 
@@ -43,7 +44,7 @@ export default function Categories({ data }) {
                           className="stretched-link d-block text-gray-800"
                           href={`/properties/${item._id}`}
                         >
-                          <h5 className="h4">{item.name}</h5>
+                          <h5 className="h4">{item.title}</h5>
                         </Button>
                         <span className="text-gray-500">
                           {item.city}, {item.country}

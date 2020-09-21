@@ -5,7 +5,7 @@ function errorResponseHandler(error) {
   if (error) {
     let message;
     if (error.message) {
-      if (error.response.status === 404) message = "Something went wrong";
+      if (error.response.status === 400) message = "Something went wrong";
       else message = error.response.message;
 
       console.log(message);

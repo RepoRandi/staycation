@@ -48,7 +48,7 @@ class DetailsPage extends Component {
                 <PageDetailDescription data={page[match.params.id]} />
               </Fade>
             </div>
-            <div className="col-5">
+            <div className="col-5 mb-5">
               <Fade bottom>
                 <BookingForm
                   itemDetails={page[match.params.id]}
